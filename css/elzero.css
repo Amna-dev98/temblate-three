@@ -558,11 +558,10 @@ header .mega-menu .links > li a i {margin-right: 10px;}
   background-color: var(--main-color-alt);}
 @media(max-width:767px){
   .events .container .subscribe form{
-    width: fit-content;}
+    width: fit-content;max-width: 100%;
+    padding: 31px 17px;border-radius: 77px;}
 .events .container .subscribe form input[type="email"] {
-  width: 200px;
-  }
-}
+  width: 200px;}}
 /* end Events */
 /* Start Pricing */
 .pricing {background-color: #ddd6ef73;position: relative;}
